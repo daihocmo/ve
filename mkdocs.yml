@@ -1,0 +1,51 @@
+site_name: Tôi luyện vẽ
+site_description: Một trang tổng hợp rất nhiều thứ liên quan đến vẽ hay hội họa
+site_author: duykhanh471
+
+nav:
+  - 'Trang chủ': 
+    - 'Trang chủ': index.md
+  - 'Hướng dẫn':
+    - 'Hướng dẫn chính': 'huong-dan/chinh.md'
+  - 'Lộ trình':
+    - 'RadioRunner': 'lo-trinh/radio-runner.md'
+  - 'Tài nguyên': 
+    - 'Tài nguyên': tai-nguyen.md
+  - 'Gợi ý':
+    - 'Gợi ý': recs.md
+ 
+
+theme:
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - search.highlighting
+    - search.share
+    - search.suggest
+  name: material
+
+plugins:
+  - search
+
+extra:
+  generator: false
