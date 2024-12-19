@@ -1,18 +1,15 @@
-site_name: Tôi luyện vẽ
-site_description: Một trang tổng hợp rất nhiều thứ liên quan đến vẽ hay hội họa
+site_name: Một trang về tự học vẽ
+site_description: Một trang tổng hợp rất nhiều thứ liên quan đến vẽ, chỉ đơn giản vậy thôi
 site_author: duykhanh471
 
 nav:
-  - 'Trang chủ': 
-    - 'Trang chủ': index.md
-  - 'Hướng dẫn':
-    - 'Hướng dẫn chính': 'huong-dan/chinh.md'
-  - 'Lộ trình':
-    - 'RadioRunner': 'lo-trinh/radio-runner.md'
-  - 'Tài nguyên': 
-    - 'Tài nguyên': tai-nguyen.md
-  - 'Gợi ý':
-    - 'Gợi ý': recs.md
+  - 'Trang chủ': index.md
+  - 'Trước khi bắt đầu':
+    - 'FAQ trước khi học vẽ': 'faq-truoc-khi-hoc-ve.md'
+    - 'Khởi đầu cho việc học vẽ': 'moi-bat-dau-hoc-ve.md'
+  - 'Lộ trình': 'radio-runner.md'
+  - 'Tài nguyên': 'tai-nguyen.md'
+  - 'Recommendations': 'recs.md'
  
 
 theme:
@@ -44,8 +41,29 @@ theme:
     - search.suggest
   name: material
 
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - meta
+  - admonition
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      
+      
 plugins:
   - search
+  # - open-in-new-tab
 
 extra:
   generator: false

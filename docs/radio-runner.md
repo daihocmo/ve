@@ -1,11 +1,13 @@
-Đây là bản Backup cho trang [brendanmeachen.com/soloartist](https://www.brendanmeachen.com/soloartist) - Lộ trình tự học ngành hội họa.
+---
+hide:
+  - navigation
+---
 
-Learn to draw and paint
-=======================
+# Lộ trình tự học vẽ
 
-14--18 minutes
+!!! info "Nguồn"
+    Đây là bản Backup cho trang [brendanmeachen.com/soloartist](https://www.brendanmeachen.com/soloartist) - Lộ trình tự học ngành hội họa. Có thể sẽ được dịch về Tiếng Việt. [Link Reddit của tác giả cho ai tò mò](https://old.reddit.com/user/RadioRunner).
 
-* * * * *
 
 **Play** with child-like wonder
 -------------------------------
